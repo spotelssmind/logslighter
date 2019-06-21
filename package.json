@@ -1,0 +1,120 @@
+{
+	"name": "logslighter",
+	"displayName": "LogsLighter",
+	"description": "Add coloring to log files",
+	"version": "0.0.1",
+	"publisher": "Ext",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"repository": {
+		"url": "TODO"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"colors": [
+			{
+			  "id": "logslighter.error_red",
+			  "description": "Background decoration color for error cases",
+			  "defaults": {
+				"dark": "#FF000055",
+				"light": "#ff00008c",
+				"highContrast": "#FF000055"
+			  }
+			},
+			{
+			  "id": "logslighter.messageQueuedKeyword",
+			  "description": "Background decoration color for Message Queued keyword",
+			  "defaults": {
+				"dark": "#0084ff60",
+				"light": "#00b7ff86",
+				"highContrast": "#0051ff55"
+			  }
+			},
+			{
+			  "id": "logslighter.green",
+			  "description": "Background decoration color for pass cases",
+			  "defaults": {
+				"dark": "#00ff228a",
+				"light": "#2bff00a2",
+				"highContrast": "#00ff22af"
+			  }
+			},
+			{
+			  "id": "logslighter.yellow",
+			  "description": "Background decoration color for pass cases",
+			  "defaults": {
+				"dark": "#f3f04e8c",
+				"light": "#f3f04e8c",
+				"highContrast": "#f3f04e8c"
+			  }
+			},
+			{
+			  "id": "logslighter.dark_orange",
+			  "description": "Background decoration color for pass cases",
+			  "defaults": {
+				"dark": "#ff7b006c",
+				"light": "#ff730077",
+				"highContrast": "#ff7b006b"
+			  }
+			},
+			{
+			  "id": "logslighter.comment_orange",
+			  "description": "Background decoration color for pass cases",
+			  "defaults": {
+				"dark": "#ff7b00e0",
+				"light": "#ff7b00e0",
+				"highContrast": "#ff7b00e0"
+			  }
+			},
+			{
+			  "id": "logslighter.final_verdict",
+			  "description": "Background decoration color for pass cases",
+			  "defaults": {
+				"dark": "#71ffff7e",
+				"light": "#71ffff7e",
+				"highContrast": "#71ffff7e"
+			  }
+			},
+			{
+			  "id": "logslighter.blue",
+			  "description": "Background decoration color for pass cases",
+			  "defaults": {
+				"dark": "#00b7ff86",
+				"light": "#00b7ff86",
+				"highContrast": "#00b7ff86"
+			  }
+			},
+			{
+			  "id": "logslighter.light_green",
+			  "description": "Background decoration color for pass cases",
+			  "defaults": {
+				"dark": "#3cf7a962",
+				"light": "#3cf7a962",
+				"highContrast": "#3cf7a962"
+			  }
+			}
+		  ]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"tslint": "^5.12.1",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
