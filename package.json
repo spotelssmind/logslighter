@@ -48,6 +48,15 @@
 				}
 			},
 			{
+				"id": "logslighter.status",
+				"description": "Background decoration color for pass cases",
+				"defaults": {
+					"dark": "#63eb8c73",
+					"light": "#63eb8c73",
+					"highContrast": "#63eb8c73"
+				}
+			},
+			{
 				"id": "logslighter.yellow",
 				"description": "Background decoration color for pass cases",
 				"defaults": {
@@ -99,6 +108,51 @@
 					"dark": "#3cf7a962",
 					"light": "#3cf7a962",
 					"highContrast": "#3cf7a962"
+				}
+			},
+			{
+				"id": "logslighter.debug",
+				"description": "Background decoration color for pass cases",
+				"defaults": {
+					"dark": "#cd61f8af",
+					"light": "#cd61f8af",
+					"highContrast": "#cd61f8af"
+				}
+			},
+			{
+				"id": "logslighter.trace",
+				"description": "Background decoration color for pass cases",
+				"defaults": {
+					"dark": "#5d85f57e",
+					"light": "#5d85f57e",
+					"highContrast": "#5d85f57e"
+				}
+			},
+			{
+				"id": "logslighter.info",
+				"description": "Background decoration color for pass cases",
+				"defaults": {
+					"dark": "#1aeb597e",
+					"light": "#1aeb597e",
+					"highContrast": "#1aeb597e"
+				}
+			},
+			{
+				"id": "logslighter.message",
+				"description": "Background decoration color for pass cases",
+				"defaults": {
+					"dark": "#c2e6247e",
+					"light": "#c2e6247e",
+					"highContrast": "#c2e6247e"
+				}
+			},
+			{
+				"id": "logslighter.ipAddress",
+				"description": "Background decoration color for pass cases",
+				"defaults": {
+					"dark": "#bbb04eaf",
+					"light": "#bbb04eaf",
+					"highContrast": "#bbb04eaf"
 				}
 			}
 		]
