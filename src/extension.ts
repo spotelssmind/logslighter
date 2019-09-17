@@ -200,18 +200,6 @@ export function activate(context: vscode.ExtensionContext) {
 			expectedKeyword.push(decoration);
 		}
 		activeEditor.setDecorations(expectedDecorationType, expectedKeyword);
-
-		// const expectedMessageRegExKeyWord = /(\b(Expected message)\b)/g;
-		// const expectedMessageKeyWordText = activeEditor.document.getText();
-		// const expectedMessageKeyword: vscode.DecorationOptions[] = [];
-		// let matchexpectedMessageKeyword;
-		// while (matchexpectedMessageKeyword = expectedMessageRegExKeyWord.exec(expectedMessageKeyWordText)) {
-		// 	const startPos = activeEditor.document.positionAt(matchexpectedMessageKeyword.index);
-		// 	const endPos = activeEditor.document.positionAt(matchexpectedMessageKeyword.index + matchexpectedMessageKeyword[0].length);
-		// 	const decoration = { range: new vscode.Range(startPos, endPos) };
-		// 	expectedMessageKeyword.push(decoration);
-		// }
-		// activeEditor.setDecorations(expectedDecorationType, expectedMessageKeyword);
 	}
 
 	function updateSelectedDecorations() {
