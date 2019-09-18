@@ -19,7 +19,7 @@
 	],
 	"icon": "images/lighter.png",
 	"galleryBanner": {
-		"color": "#C80000",
+		"color": "#5470b0",
 		"theme": "dark"
 	},
 	"main": "./out/extension.js",
