@@ -1,8 +1,8 @@
 {
 	"name": "logslighter",
 	"displayName": "LogsLighter",
-	"description": "Add coloring to ttcn log files",
-	"version": "0.0.1",
+	"description": "This extention adds coloring to ttcn log files.",
+	"version": "1.0.0",
 	"publisher": "ExtensionForest",
 	"license": "MIT",
 	"engines": {
@@ -17,6 +17,11 @@
 	"activationEvents": [
 		"*"
 	],
+	"icon": "images/lighter.png",
+	"galleryBanner": {
+		"color": "#C80000",
+		"theme": "dark"
+	},
 	"main": "./out/extension.js",
 	"contributes": {
 		"colors": [
