@@ -1,7 +1,7 @@
 # logslighter README
 
 This is a very simple extention for Visual Studio Code to add some coloring to TTCN log files.
-It works on files wirh following extention: .log, .k3.txt and .out.
+It works on files with following extention: .log, .k3.txt and .out.
 
 ## Features
 
@@ -14,4 +14,4 @@ This extentions contains following features:
 
 ### 1.0.0
 
-Initial stable release of logslighter.
+Official stable release of logslighter.
